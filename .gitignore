@@ -1,0 +1,24 @@
+.DS_Store
+node_modules/
+node_modules-bk/
+package-lock-bk.json
+
+/dist/
+_sample_**/
+
+# local env files
+.env*
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*

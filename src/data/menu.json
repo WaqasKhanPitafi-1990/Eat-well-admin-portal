@@ -1,0 +1,398 @@
+{
+    "data": [
+        {
+            "titleEn": "Dashboard",
+            "titleAr": "لوحة القيادة",
+            "icon": "line-chart",
+            "type": "link",
+            "badgeType": "primary",
+            "badgeValue": "",
+            "active": false,
+            "disabled": false,
+            "path": "/dashboard/default"
+        },
+        {
+            "titleEn": "Languages",
+            "titleAr": "اللغات",
+            "icon": "language",
+            "type": "sub",
+            "badgeType": "primary",
+            "badgeValue": "",
+            "active": false,
+            "disabled": false,
+            "children": [
+                {
+                    "path": "/language/list",
+                    "titleEn": "List",
+                    "titleAr": "قائمة",
+                    "type": "link"
+                },
+                {
+                    "path": "/language/create",
+                    "titleEn": "Create",
+                    "titleAr": "خلق",
+                    "type": "link"
+                },
+                {
+                    "path": "/language/update",
+                    "titleEn": "Update",
+                    "titleAr": "تحديث",
+                    "type": "link",
+                    "disableClick": true
+                }
+            ]
+        },
+        {
+            "titleEn": "Goals",
+            "titleAr": "الأهداف",
+            "icon": "flag",
+            "type": "sub",
+            "badgeType": "primary",
+            "badgeValue": "",
+            "active": false,
+            "disabled": false,
+            "children": [
+                {
+                    "path": "/goals/list",
+                    "titleEn": "List",
+                    "titleAr": "قائمة",
+                    "type": "link"
+                },
+                {
+                    "path": "/goals/create",
+                    "titleEn": "Create",
+                    "titleAr": "خلق",
+                    "type": "link"
+                },
+                {
+                    "path": "/goals/update",
+                    "titleEn": "Update",
+                    "titleAr": "تحديث",
+                    "type": "link",
+                    "disableClick": true
+                }
+            ]
+        },
+        {
+            "titleEn": "Diet Category",
+            "titleAr": "فئة النظام الغذائي",
+            "icon": "th-large",
+            "type": "sub",
+            "badgeType": "primary",
+            "badgeValue": "",
+            "active": false,
+            "disabled": false,
+            "children": [
+                {
+                    "path": "/diet-category/list",
+                    "titleEn": "List",
+                    "titleAr": "قائمة",
+                    "type": "link"
+                },
+                {
+                    "path": "/diet-category/create",
+                    "titleEn": "Create",
+                    "titleAr": "خلق",
+                    "type": "link"
+                },
+                {
+                    "path": "/diet-category/update",
+                    "titleEn": "Update",
+                    "titleAr": "تحديث",
+                    "type": "link",
+                    "disableClick": true
+                }
+            ]
+        },
+        {
+            "titleEn": "Plans",
+            "titleAr": "الخطط",
+            "icon": "th-list",
+            "type": "sub",
+            "badgeType": "primary",
+            "badgeValue": "",
+            "active": false,
+            "disabled": false,
+            "children": [
+                {
+                    "path": "/plans/list",
+                    "titleEn": "List",
+                    "titleAr": "قائمة",
+                    "type": "link"
+                },
+                {
+                    "path": "/plans/create",
+                    "titleEn": "Create",
+                    "titleAr": "خلق",
+                    "type": "link"
+                },
+                {
+                    "path": "/plans/update",
+                    "titleEn": "Update",
+                    "titleAr": "تحديث",
+                    "type": "link",
+                    "disableClick": true
+                }
+            ]
+        },
+        {
+            "titleEn": "Meal Categories",
+            "titleAr": "فئات الوجبات",
+            "icon": "th",
+            "type": "sub",
+            "badgeType": "primary",
+            "badgeValue": "",
+            "active": false,
+            "disabled": false,
+            "children": [
+                {
+                    "path": "/meal-categories/list",
+                    "titleEn": "List",
+                    "titleAr": "قائمة",
+                    "type": "link"
+                },
+                {
+                    "path": "/meal-categories/create",
+                    "titleEn": "Create",
+                    "titleAr": "خلق",
+                    "type": "link"
+                },
+                {
+                    "path": "/meal-categories/update",
+                    "titleEn": "Update",
+                    "titleAr": "تحديث",
+                    "type": "link",
+                    "disableClick": true
+                }
+            ]
+        },
+        {
+            "titleEn": "Ingredients",
+            "titleAr": "مكونات",
+            "icon": "braille",
+            "type": "sub",
+            "badgeType": "primary",
+            "badgeValue": "",
+            "active": false,
+            "disabled": false,
+            "children": [
+                {
+                    "path": "/ingredients/list",
+                    "titleEn": "List",
+                    "titleAr": "قائمة",
+                    "type": "link"
+                },
+                {
+                    "path": "/ingredients/create",
+                    "titleEn": "Create",
+                    "titleAr": "خلق",
+                    "type": "link"
+                },
+                {
+                    "path": "/ingredients/update",
+                    "titleEn": "Update",
+                    "titleAr": "تحديث",
+                    "type": "link",
+                    "disableClick": true
+                }
+            ]
+        },
+        {
+            "titleEn": "Meals Per Day",
+            "titleAr": "وجبات في اليوم",
+            "icon": "sort-numeric-asc",
+            "type": "sub",
+            "badgeType": "primary",
+            "badgeValue": "",
+            "active": false,
+            "disabled": false,
+            "children": [
+                {
+                    "path": "/meals-per-day/list",
+                    "titleEn": "List",
+                    "titleAr": "قائمة",
+                    "type": "link"
+                },
+                {
+                    "path": "/meals-per-day/create",
+                    "titleEn": "Create",
+                    "titleAr": "خلق",
+                    "type": "link"
+                },
+                {
+                    "path": "/meals-per-day/update",
+                    "titleEn": "Update",
+                    "titleAr": "تحديث",
+                    "type": "link",
+                    "disableClick": true
+                }
+            ]
+        },
+        {
+            "titleEn": "Calories",
+            "titleAr": "سعرات حراريه",
+            "icon": "fire",
+            "type": "sub",
+            "badgeType": "primary",
+            "badgeValue": "",
+            "active": false,
+            "disabled": false,
+            "children": [
+                {
+                    "path": "/calories/list",
+                    "titleEn": "List",
+                    "titleAr": "قائمة",
+                    "type": "link"
+                },
+                {
+                    "path": "/calories/create",
+                    "titleEn": "Create",
+                    "titleAr": "خلق",
+                    "type": "link"
+                },
+                {
+                    "path": "/calories/update",
+                    "titleEn": "Update",
+                    "titleAr": "تحديث",
+                    "type": "link",
+                    "disableClick": true
+                }
+            ]
+        },
+        {
+            "titleEn": "Meal Items",
+            "titleAr": "عناصر الوجبة",
+            "icon": "cutlery",
+            "type": "sub",
+            "badgeType": "primary",
+            "badgeValue": "",
+            "active": false,
+            "disabled": false,
+            "children": [
+                {
+                    "path": "/meal-items/list",
+                    "titleEn": "List",
+                    "titleAr": "قائمة",
+                    "type": "link"
+                },
+                {
+                    "path": "/meal-items/create",
+                    "titleEn": "Create",
+                    "titleAr": "خلق",
+                    "type": "link"
+                },
+                {
+                    "path": "/meal-items/update",
+                    "titleEn": "Update",
+                    "titleAr": "تحديث",
+                    "type": "link",
+                    "disableClick": true
+                }
+            ]
+        },
+        {
+            "titleEn": "Orders",
+            "titleAr": "الطلبات",
+            "icon": "shopping-cart",
+            "type": "link",
+            "badgeType": "primary",
+            "badgeValue": "",
+            "active": false,
+            "disabled": false,
+            "path": "/orders/list"
+        },
+        {
+            "titleEn": "Address Types",
+            "titleAr": "أنواع العناوين",
+            "icon": "map-marker",
+            "type": "sub",
+            "badgeType": "primary",
+            "badgeValue": "",
+            "active": false,
+            "disabled": false,
+            "children": [
+                {
+                    "path": "/address-types/list",
+                    "titleEn": "List",
+                    "titleAr": "قائمة",
+                    "type": "link"
+                },
+                {
+                    "path": "/address-types/create",
+                    "titleEn": "Create",
+                    "titleAr": "خلق",
+                    "type": "link"
+                },
+                {
+                    "path": "/address-types/update",
+                    "titleEn": "Update",
+                    "titleAr": "تحديث",
+                    "type": "link",
+                    "disableClick": true
+                }
+            ]
+        },
+        {
+            "titleEn": "User Addresses",
+            "titleAr": "عناوين المستخدمين",
+            "icon": "map-marker",
+            "type": "sub",
+            "badgeType": "primary",
+            "badgeValue": "",
+            "active": false,
+            "disabled": false,
+            "children": [
+                {
+                    "path": "/user-address/list",
+                    "titleEn": "List",
+                    "titleAr": "قائمة",
+                    "type": "link"
+                },
+                {
+                    "path": "/user-address/create",
+                    "titleEn": "Create",
+                    "titleAr": "خلق",
+                    "type": "link"
+                },
+                {
+                    "path": "/user-address/update",
+                    "titleEn": "Update",
+                    "titleAr": "تحديث",
+                    "type": "link",
+                    "disableClick": true
+                }
+            ]
+        },
+        {
+            "titleEn": "User Management",
+            "titleAr": "إدارةالمستخدم",
+            "icon": "tasks",
+            "type": "sub",
+            "badgeType": "primary",
+            "badgeValue": "",
+            "active": false,
+            "disabled": false,
+            "children": [
+                {
+                    "path": "/user-management/list",
+                    "titleEn": "List",
+                    "titleAr": "قائمة",
+                    "type": "link"
+                },
+                {
+                    "path": "/user-management/create",
+                    "titleEn": "Create",
+                    "titleAr": "خلق",
+                    "type": "link"
+                },
+                {
+                    "path": "/user-management/update",
+                    "titleEn": "Update",
+                    "titleAr": "تحديث",
+                    "type": "link",
+                    "disableClick": true
+                }
+            ]
+        }
+    ]
+}

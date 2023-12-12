@@ -1,0 +1,359 @@
+{
+  "error": {
+    "invalidCredentials":"بيانات الاعتماد غير صالحة",
+    "somethingWentWrong": "هناك خطأ ما! الرجاء معاودة المحاولة في وقت لاحق"
+  },
+  "login": {
+    "heading": "تسجيل الدخول إلى الحساب",
+    "subheading": "أدخل بريدك الإلكتروني وكلمة المرور لتسجيل الدخول",
+    "fields":{
+      "emailLabel": "اسم المستخدم",
+      "passwordLabel": "كلمه السر"
+    },
+    "signIn": "تسجيل الدخول"
+  },
+  "header": {
+    "admin": "مسؤل",
+    "logOut": "تسجيل خروج",
+    "search": "تفتيش"
+  },
+  "dashboard": {
+    "heading": "لوحة القيادة",
+    "total": "المجموع",
+    "noOfUsers": "عدد المستخدمين",
+    "platformWiseStats": "منصة الإحصاءات الحكيمة",
+    "moduleWiseStats": "احصائيات الوحدة الحكيمة",
+    "noData": "لايوجد بيانات",
+    "patient": "المريض",
+    "module": "وحدة",
+    "platform": "برنامج",
+    "data": "البيانات الجدولية",
+    "export": "يصدّر",
+    "filters": "المرشحات",
+    "reset": "أعاد التشغيل",
+    "apply": "يتقدم",
+    "multiselect":{
+      "selectPlaceholder": "البحث أو إضافة علامة",
+      "addPlaceholder": "أضف هذا كعلامة جديدة",
+      "selectLabel": "المحدد",
+      "deselectLabel": "اضغط على زر الإدخال للإزالة"
+    }
+  },
+  "language": {
+    "heading": "لغة",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف هذه اللغة؟",
+    "deleteSuccess": "تم حذف اللغة بنجاح",
+    "updateLanguage": "تحديث اللغة",
+    "updateSuccess": "تم تحديث اللغة بنجاح",
+    "createLanguage": "إنشاء لغة",
+    "createSuccess": "تم إنشاء اللغة بنجاح. هل تريد إنشاء آخر؟",
+    "formFields": {
+      "id": "بطاقة تعريف",
+      "name": "الاسم (انجليزي)",
+      "nameAr": "الاسم (عربي)",
+      "code": "شفرة"
+    }
+  },
+  "goals": {
+    "heading": "الأهداف",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف هذه الأهداف؟",
+    "deleteSuccess": "تم حذف الأهداف بنجاح",
+    "updateGoals": "تحديث الأهداف",
+    "updateSuccess": "تم تحديث الأهداف بنجاح",
+    "createGoals": "إنشاء الأهداف",
+    "createSuccess": "تم إنشاء الأهداف بنجاح. هل تريد إنشاء آخر؟",
+    "formFields": {
+      "id": "بطاقة تعريف",
+      "name": "اسم",
+      "description": "وصف",
+      "image": "صورة",
+      "imageTooltip": "تحميل صورة الهدف:"
+    }
+  },
+  "dietCategory": {
+    "heading": "فئة النظام الغذائي",
+    "deleteConfirm": "سيؤدي حذف فئة النظام الغذائي إلى حذف جميع الخطط ذات الصلة أيضًا. هل أنت متأكد أنك تريد حذف فئة النظام الغذائي هذه؟",
+    "deleteSuccess": "تم حذف فئة النظام الغذائي بنجاح",
+    "updateDietCategory": "تحديث فئة النظام الغذائي",
+    "updateSuccess": "تم تحديث فئة النظام الغذائي بنجاح",
+    "createDietCategory": "إنشاء فئة النظام الغذائي",
+    "createSuccess": "تم إنشاء فئة النظام الغذائي بنجاح. هل تريد إنشاء آخر؟",
+    "formFields": {
+      "id": "بطاقة تعريف",
+      "name": "اسم",
+      "description": "وصف",
+      "image": "صورة",
+      "goalId": "هدف",
+      "bgImage": "الصورة الخلفية",
+      "headingColor": "لون العنوان",
+      "imageTooltip": "تحميل صورة فئة النظام الغذائي:"
+    }
+  },
+  "plans": {
+    "heading": "الخطط",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف هذه الخطة؟",
+    "deleteSuccess": "تم حذف الخطة بنجاح",
+    "updatePlan": "تحديث الخطة",
+    "updateSuccess": "تم تحديث الخطة بنجاح",
+    "createPlan": "إنشاء خطة",
+    "createSuccess": "تم إنشاء الخطة بنجاح. هل تريد إنشاء آخر؟",
+    "formFields": {
+      "id": "بطاقة تعريف",
+      "name": "اسم",
+      "price": "السعر (ريال)",
+      "duration": "المدة (أيام)",
+      "dietCategoryId": "فئة النظام الغذائي"
+    }
+  },
+  "mealCategory": {
+    "heading": "فئات الوجبات",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف فئة الوجبة هذه؟",
+    "deleteSuccess": "تم حذف فئة الوجبة بنجاح",
+    "updateMealCategory": "تحديث فئة الوجبة",
+    "updateSuccess": "تم تحديث فئة الوجبة بنجاح",
+    "createMealCategory": "إنشاء فئة الوجبة",
+    "createSuccess": "تم إنشاء فئة الوجبة بنجاح. هل تريد إنشاء آخر؟",
+    "formFields": {
+      "id": "بطاقة تعريف",
+      "name": "اسم",
+      "image": "صورة",
+      "selectedImage": "الصورة المختارة",
+      "imageTooltip": "تحميل صورة فئة الوجبة:"
+    }
+  },
+  "ingredient": {
+    "heading": "مكونات",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف هذا المكون؟",
+    "deleteSuccess": "تم حذف المكون بنجاح",
+    "updateIngredient": "عنصر التحديث",
+    "updateSuccess": "تم تحديث المكون بنجاح",
+    "createIngredient": "تكوين المكون",
+    "createSuccess": "تم إنشاء المكون بنجاح. هل تريد إنشاء آخر؟",
+    "formFields": {
+      "id": "بطاقة تعريف",
+      "name": "اسم",
+      "image": "صورة",
+      "imageTooltip": "تحميل صورة المكون:"
+    }
+  },
+  "mealsPerDay": {
+    "heading": "وجبات في اليوم",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف هذه الوجبات يوميًا؟",
+    "deleteSuccess": "تم حذف عدد الوجبات في اليوم بنجاح",
+    "updateMealsPerDay": "تحديث الوجبات في اليوم",
+    "updateSuccess": "تم تحديث الوجبات في اليوم بنجاح",
+    "createMealsPerDay": "اصنع وجبات في اليوم",
+    "createSuccess": "تم إنشاء وجبات الطعام في اليوم بنجاح. هل تريد إنشاء آخر؟",
+    "formFields": {
+      "id": "بطاقة تعريف",
+      "name": "اسم",
+      "selection": "اختيار",
+      "categories": "فئات الوجبات",
+      "tooltip": {
+        "selection": "أقصى عدد من الفئات المختارة في الوجبة"
+      }
+    }
+  },
+  "calories": {
+    "heading": "سعرات حراريه",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف هذه السعرات الحرارية؟",
+    "deleteSuccess": "تم حذف السعرات الحرارية بنجاح",
+    "updateMealsPerDay": "تحديث السعرات الحرارية",
+    "updateSuccess": "تم تحديث السعرات الحرارية بنجاح",
+    "createMealsPerDay": "خلق السعرات الحرارية",
+    "createSuccess": "تم إنشاء السعرات الحرارية بنجاح. هل تريد إنشاء آخر؟",
+    "formFields": {
+      "id": "بطاقة تعريف",
+      "calorieValue": "قيمة السعرات الحرارية"
+    }
+  },
+  "mealItems": {
+    "heading": "عناصر الوجبات",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف عناصر الوجبات هذه؟",
+    "deleteSuccess": "وجبات الطعام تم حذفها بنجاح",
+    "updateMealItems": "تحديث أصناف الوجبات",
+    "updateSuccess": "تم تحديث عناصر الوجبات بنجاح",
+    "createMealItems": "اصنع وجبات الطعام",
+    "createSuccess": "تم إنشاء عناصر الوجبات بنجاح. هل تريد إنشاء آخر؟",
+    "mealDetailError": "يرجى ملء تفاصيل الوجبة أولا",
+    "formFields": {
+      "id": "بطاقة تعريف",
+      "name": "اسم",
+      "description": "وصف",
+      "imageMenu": "قائمة الصورة",
+      "imageItem": "عنصر الصورة",
+      "categories": "فئات الوجبات",
+      "ingredients": "مكونات",
+      "dietCategory": "فئة النظام الغذائي",
+      "goal": "هدف",
+      "calorie": "كالوري",
+      "size": "بحجم (أوقية)",
+      "tooltip": {
+        "calorie": "كمية السعرات الحرارية في خيار عنصر الوجبة هذا",
+        "size": "حجم / وزن / كمية خيار عنصر الوجبة هذا",
+        "image": "تحميل صورة عنصر الوجبة:"
+      }
+    }
+  },
+  "orders": {
+    "heading": "أوامر",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف هذه الطلبات؟",
+    "deleteSuccess": "تم حذف الطلب بنجاح",
+    "updateOrders": "أجل التحديث",
+    "updateSuccess": "تم تحديث الطلب بنجاح",
+    "createOrders": "إنشاء النظام",
+    "createSuccess": "تم إنشاء الطلب بنجاح. هل تريد إنشاء آخر؟",
+    "mealDetailError": "يرجى ملء تفاصيل الوجبة أولا",
+    "formFields": {
+      "id": "بطاقة تعريف",
+      "userId": "المستعمل",
+      "addressId": "تبوك",
+      "goal": "هدف",
+      "plan": "يخطط",
+      "dietCategory": "فئة النظام الغذائي",
+      "calories": "سعرات حراريه",
+      "mealsPerDay": "وجبات في اليوم",
+      "startDate": "تاريخ البدء",
+      "endDate": "تاريخ الانتهاء",
+      "price": "سعر",
+      "discount": "تخفيض",
+      "vat": "ضريبة القيمة المضافة",
+      "totalAmount": "المبلغ الإجمالي",
+      "dieticianAssessment": "تقييم أخصائي التغذية",
+      "deliveryMethod": "طريقة التوصيل",
+      "orderStatus": "حالة الطلب",
+      "createdAt": "أنشئت في",
+      "updatedAt": "تم التحديث في",
+      "createdBy": "انشأ من قبل",
+      "updatedBy": "تم التحديث بواسطة",
+      "checkoutFlag": "علامة الخروج",
+      "lineItems": "بنود الطلب"
+    }
+  },
+  "addressTypes": {
+    "heading": "أنواع العناوين",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف نوع العنوان هذا؟",
+    "deleteSuccess": "تم حذف نوع العنوان بنجاح",
+    "updateAddressType": "تحديث نوع العنوان",
+    "updateSuccess": "تم تحديث نوع العنوان بنجاح",
+    "createAddressType": "إنشاء نوع العنوان",
+    "createSuccess": "تم إنشاء نوع العنوان بنجاح. هل تريد إنشاء آخر؟",
+    "formFields": {
+      "id": "بطاقة تعريف",
+      "name": "اسم",
+      "image": "صورة",
+      "isActive": "نشط",
+      "imageTooltip": "تحميل نوع العنوان الصورة:"
+    }
+  },
+  "userAddress": {
+    "heading": "عناوين المستخدمين",
+    "deleteConfirm": "هل أنت متأكد أنك تريد حذف عنوان المستخدم هذا؟",
+    "deleteSuccess": "تم حذف عنوان المستخدم بنجاح",
+    "updateUserAddress": "تحديث عنوان المستخدم",
+    "updateSuccess": "تم تحديث عنوان المستخدم بنجاح",
+    "createUserAddress": "أنشئ عنوان المستخدم",
+    "createSuccess": "تم إنشاء عنوان المستخدم بنجاح. هل تريد إنشاء آخر؟",
+    "formFields": {
+      "id": "بطاقة تعريف",
+      "userId": "المستعمل",
+      "name": "اسم",
+      "addressType": "نوع العنوان",
+      "isDefault": "افتراضي",
+      "address": "تبوك",
+      "city": "مدينة",
+      "state": "حالة",
+      "country": "دولة",
+      "lat": "خط العرض",
+      "lng": "خط الطول"
+    }
+  },
+  "userManagement": {
+    "heading": "إدارةالمستخدم",
+    "deleteConfirm": "هل أنت متأكد من أنك تريد حذف إدارة المستخدم هذه؟",
+    "deleteSuccess": "تم حذف إدارة المستخدم بنجاح",
+    "updateUserManagement": "تحديث إدارة المستخدم",
+    "updateSuccess": "تم تحديث إدارة المستخدم بنجاح",
+    "createUserManagement": "إنشاء إدارة المستخدم",
+    "createSuccess": "تم إنشاء إدارة المستخدم بنجاح. هل تريد إنشاء آخر؟",
+    "formFields": {
+      "id": "بطاقة تعريف",
+      "userId": "معرف المستخدم",
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "name": "اسم",
+      "email": "بريد إلكتروني",
+      "password": "كلمة المرور",
+      "phoneNumber": "رقم التليفون",
+      "roles": "الأدوار",
+      "image": "صورة",
+      "imageTooltip": "تحميل صورة المستخدم: "
+
+    }
+  },
+  "validation" :{
+    "only_html" : "تحميل ملف صالح. يسمح فقط بتنسيق HTML",
+    "only_image" : "تحميل صورة صالحة. يسمح فقط بتنسيق PNG و JPEG",
+    "only_svg": "تحميل صورة صالحة. يسمح فقط باستخدام SVG",
+    "only_pdf" : "تحميل ملف صالح. يسمح فقط بتنسيق PDF",
+    "invalide_file": "مدخل غير صالح. تحميل ملف صالح",
+    "image_file_size_1024" : "حجم الصورة أقل من {size} ميغا بايت",
+    "image_dem_500_500" : "أبعاد الصورة أقل من 500*500 بكسل",
+    "html_file_size_1024" : "حجم الملف أقل من {size} ميغا بايت",
+    "pdf_file_size_1024" : "حجم الملف أقل من {size} ميغا بايت"
+  },
+  "uploadContent":{
+    "upload_html" : "تحميل ملف HTML",
+    "upload_image" : "تحميل ملف الصورة",
+    "upload_pdf" : "تحميل ملف PDF"
+  },
+  "status": {
+    "CANCELLED": "ألغيت",
+    "INACTIVE": "غير نشط",
+    "ACTIVE": "نشيط",
+    "FREEZE": "تجميد",
+    "COMPLETED": "منجز",
+    "DELIVERY": "توصيل",
+    "SELF_PICKUP": "النفس التقاط",
+    "ORDER_PLACED": "تم الطلب",
+    "ACKNOWLEDGED": "أقر",
+    "ASSIGNED_TO_CHEF": "معين إلى الشيف",
+    "PROCESSING": "يتم المعالجة",
+    "READY_FOR_PICKUP": "جاهز للإستلام",
+    "ASSIGNED_TO_DELIVERY_BOY": "معين إلى تسليم الصبي",
+    "PICKED": "منتقى",
+    "DELIVERED": "تم التوصيل",
+    "RETURNED": "عاد",
+    "PENDING": "ريثما",
+    "ERROR": "خطأ",
+    "FAILED_PAYMENT": "فشل الدفع"
+  },
+  "multiselect": {
+    "selectOption": "حدد الحالة",
+    "selectLabel": "اضغط على دخل لتحديد",
+    "selectedLabel": "المحدد",
+    "deselectLabel": "اضغط على دخل للإزالة"
+  },
+  "loading": "تحميل",
+  "success": "نجاح",
+  "failure": "باءت بالفشل",
+  "areYouSure": "هل أنت واثق؟",
+  "ok": "نعم",
+  "cancel": "إلغاء",
+  "changesDone": "التغييرات التي تم حفظها بنجاح",
+  "changesReverted": "تم التراجع عن التغييرات",
+  "submit": "إرسال",
+  "imageNotLoaded": "الصورة غير محملة",
+  "typeToSearch": "اكتب للبحث",
+  "clear": "واضح",
+  "perPage": "لكل صفحة",
+  "create": "خلق",
+  "update": "تحديث",
+  "list": "قائمة",
+  "download": "تحميل الملف",
+  "upload": "رفع ملف",
+  "all": "الجميع",
+  "remove": "نزع",
+  "yes": "نعم",
+  "no": "لا"
+}

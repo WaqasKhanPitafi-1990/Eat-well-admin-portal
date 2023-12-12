@@ -1,0 +1,361 @@
+{
+  "error": {
+    "invalidCredentials": "Invalid Credentials",
+    "somethingWentWrong": "Something Went Wrong! Please Try Again Later"
+  },
+  "login": {
+    "heading": "Sign in to account",
+    "subheading": "Enter your email & password to login",
+    "fields": {
+      "emailLabel": "Username",
+      "passwordLabel": "Password"
+    },
+    "signIn": "Sign in"
+  },
+  "header": {
+    "admin": "Admin",
+    "logOut": "Log Out",
+    "search": "Search"
+  },
+  "dashboard": {
+    "heading": "Dashboard",
+    "total": "Total",
+    "noOfUsers": "No. Of Users",
+    "platformWiseStats": "Platform Wise Stats",
+    "moduleWiseStats": "Module Wise Stats",
+    "noData": "No Data",
+    "patient": "Patient",
+    "module": "Module",
+    "platform": "Platform",
+    "data": "Tabular Data",
+    "export": "Export",
+    "filters": "Filters",
+    "reset": "Reset",
+    "apply": "Apply",
+    "multiselect": {
+      "selectPlaceholder": "Search or add a tag",
+      "addPlaceholder": "Add this as new tag",
+      "selectLabel": "Selected",
+      "deselectLabel": "Press enter to remove"
+    }
+  },
+  "language": {
+    "heading": "Language",
+    "deleteConfirm": "Are you sure, you want to delete this language?",
+    "deleteSuccess": "Language deleted successfully",
+    "updateLanguage": "Update Language",
+    "updateSuccess": "Language updated successfully",
+    "createLanguage": "Create Language",
+    "createSuccess": "Language created successfully. Do you want to create another?",
+    "formFields": {
+      "id": "ID",
+      "name": "Name (English)",
+      "nameAr": "Name (Arabic)",
+      "code": "Code"
+    }
+  },
+  "goals": {
+    "heading": "Goals",
+    "deleteConfirm": "Are you sure, you want to delete this goals?",
+    "deleteSuccess": "Goals deleted successfully",
+    "updateGoals": "Update Goals",
+    "updateSuccess": "Goals updated successfully",
+    "createGoals": "Create Goals",
+    "createSuccess": "Goals created successfully. Do you want to create another?",
+    "formFields": {
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "image": "Image",
+      "imageTooltip": "Upload Goal Image: "
+    }
+  },
+  "dietCategory": {
+    "heading": "Diet Category",
+    "deleteConfirm": "Deleting Diet Category will delete all related plans also. Are you sure, you want to delete this diet category?",
+    "deleteSuccess": "Diet Category deleted successfully",
+    "updateDietCategory": "Update Diet Category",
+    "updateSuccess": "Diet Category updated successfully",
+    "createDietCategory": "Create Diet Category",
+    "createSuccess": "Diet Category created successfully. Do you want to create another?",
+    "formFields": {
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "image": "Image",
+      "goalId": "Goal",
+      "bgImage": "Background Image",
+      "headingColor": "Heading Color",
+      "imageTooltip": "Upload Diet Category Image: "
+    }
+  },
+  "plans": {
+    "heading": "Plans",
+    "deleteConfirm": "Are you sure, you want to delete this plan?",
+    "deleteSuccess": "Plan deleted successfully",
+    "updatePlan": "Update Plan",
+    "updateSuccess": "Plan updated successfully",
+    "createPlan": "Create Plan",
+    "createSuccess": "Plan created successfully. Do you want to create another?",
+    "formFields": {
+      "id": "ID",
+      "name": "Name",
+      "price": "Price (SAR)",
+      "duration": "Duration (Days)",
+      "dietCategoryId": "Diet Category"
+    }
+  },
+  
+  "mealCategory": {
+    "heading": "Meal Categories",
+    "deleteConfirm": "Are you sure, you want to delete this meal category?",
+    "deleteSuccess": "Meal Category deleted successfully",
+    "updateMealCategory": "Update Meal Category",
+    "updateSuccess": "Meal Category updated successfully",
+    "createMealCategory": "Create Meal Category",
+    "createSuccess": "Meal Category created successfully. Do you want to create another?",
+    "formFields": {
+      "id": "ID",
+      "name": "Name",
+      "image": "Image",
+      "selectedImage": "Selected Image",
+      "imageTooltip": "Upload Meal Category Image: "
+    }
+  },
+  "ingredient": {
+    "heading": "Ingredients",
+    "deleteConfirm": "Are you sure, you want to delete this ingredient?",
+    "deleteSuccess": "Ingredient deleted successfully",
+    "updateIngredient": "Update Ingredient",
+    "updateSuccess": "Ingredient updated successfully",
+    "createIngredient": "Create Ingredient",
+    "createSuccess": "Ingredient created successfully. Do you want to create another?",
+    "formFields": {
+      "id": "ID",
+      "name": "Name",
+      "image": "Image",
+      "imageTooltip": "Upload Ingredient Image: "
+    }
+  },
+  "mealsPerDay": {
+    "heading": "Meals Per Day",
+    "deleteConfirm": "Are you sure, you want to delete this meals per day?",
+    "deleteSuccess": "Meals Per Day deleted successfully",
+    "updateMealsPerDay": "Update Meals Per Day",
+    "updateSuccess": "Meals Per Day updated successfully",
+    "createMealsPerDay": "Create Meals Per Day",
+    "createSuccess": "Meals Per Day created successfully. Do you want to create another?",
+    "formFields": {
+      "id": "ID",
+      "name": "Name",
+      "selection": "Selection",
+      "categories": "Meal Categories",
+      "calories": "Calories",
+      "tooltip": {
+        "selection": "Maximum number of categories selection in a meal"
+      }
+    }
+  },
+  "calories": {
+    "heading": "Calories",
+    "deleteConfirm": "Are you sure, you want to delete this calories?",
+    "deleteSuccess": "Calories deleted successfully",
+    "updateCalories": "Update Calories",
+    "updateSuccess": "Calories updated successfully",
+    "createCalories": "Create Calories",
+    "createSuccess": "Calories created successfully. Do you want to create another?",
+    "formFields": {
+      "id": "ID",
+      "calorieValue": "Calorie Value"
+    }
+  },
+  "mealItems": {
+    "heading": "Meals Items",
+    "deleteConfirm": "Are you sure, you want to delete this meals items?",
+    "deleteSuccess": "Meals Items deleted successfully",
+    "updateMealItems": "Update Meals Items",
+    "updateSuccess": "Meals Items updated successfully",
+    "createMealItems": "Create Meals Items",
+    "createSuccess": "Meals Items created successfully. Do you want to create another?",
+    "mealDetailError": "Please fill meal details first",
+    "formFields": {
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "imageMenu": "Image Menu",
+      "imageItem": "Image Item",
+      "categories": "Meal Categories",
+      "ingredients": "Ingredients",
+      "dietCategory": "Diet Category",
+      "goal": "Goal",
+      "calorie": "Calorie",
+      "size": "Size (oz)",
+      "tooltip": {
+        "calorie": "Amount of calories in this meal item option",
+        "size": "Size/Weight/Quantity of this meal item option",
+        "image": "Upload Meal Item Image: "
+      }
+    }
+  },
+  "orders": {
+    "heading": "Orders",
+    "deleteConfirm": "Are you sure, you want to delete this orders?",
+    "deleteSuccess": "Order deleted successfully",
+    "updateOrders": "Update Order",
+    "updateSuccess": "Order updated successfully",
+    "createOrders": "Create Order",
+    "createSuccess": "Order created successfully. Do you want to create another?",
+    "mealDetailError": "Please fill meal details first",
+    "formFields": {
+      "id": "ID",
+      "userId": "User",
+      "addressId": "Address",
+      "goal": "Goal",
+      "plan": "Plan",
+      "dietCategory": "Diet Category",
+      "calories": "Calories",
+      "mealsPerDay": "Meals Per Day",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "price": "Price",
+      "discount": "Discount",
+      "vat": "VAT",
+      "totalAmount": "Total Amount",
+      "dieticianAssessment": "Dietician Assessment",
+      "deliveryMethod": "Delivery Method",
+      "orderStatus": "Order Status",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "createdBy": "Created By",
+      "updatedBy": "Updated By",
+      "checkoutFlag": "Checkout Flag",
+      "lineItems": "Order Line Items"
+    }
+  },
+  "addressTypes": {
+    "heading": "Address Types",
+    "deleteConfirm": "Are you sure, you want to delete this address type?",
+    "deleteSuccess": "Address Type deleted successfully",
+    "updateAddressType": "Update Address Type",
+    "updateSuccess": "Address Type updated successfully",
+    "createAddressType": "Create Address Type",
+    "createSuccess": "Address Type created successfully. Do you want to create another?",
+    "formFields": {
+      "id": "ID",
+      "name": "Name",
+      "image": "Image",
+      "isActive": "Is Active",
+      "imageTooltip": "Upload Address Type Image: "
+    }
+  },
+  "userAddress": {
+    "heading": "User Addresses",
+    "deleteConfirm": "Are you sure, you want to delete this user address?",
+    "deleteSuccess": "User Address deleted successfully",
+    "updateUserAddress": "Update User Address",
+    "updateSuccess": "User Address updated successfully",
+    "createUserAddress": "Create User Address",
+    "createSuccess": "User Address created successfully. Do you want to create another?",
+    "formFields": {
+      "id": "ID",
+      "userId": "User ID",
+      "name": "Name",
+      "addressType": "Address Type",
+      "isDefault": "Is Default",
+      "address": "Address",
+      "city": "City",
+      "state": "State",
+      "country": "Country",
+      "lat": "Latitude",
+      "lng": "Longitude"
+    }
+  },
+  "userManagement": {
+    "heading": "User Management",
+    "deleteConfirm": "Are you sure, you want to delete this user management?",
+    "deleteSuccess": "User Management deleted successfully",
+    "updateUserManagement": "Update User Management",
+    "updateSuccess": "User Management updated successfully",
+    "createUserManagement": "Create User Management",
+    "createSuccess": "User Management created successfully. Do you want to create another?",
+    "formFields": {
+      "id": "ID",
+      "userId": "User ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "password": "Password",
+      "phoneNumber": "Phone Number",
+      "roles": "Roles",
+      "image": "Image",
+      "imageTooltip": "Upload User Image: "
+    }
+  },
+  "validation": {
+    "only_html": "Upload valid File. Only HTML allowed",
+    "only_image": "Upload valid image. Only PNG and JPEG are allowed",
+    "only_svg": "Upload valid image. Only SVG are allowed",
+    "only_pdf": "Upload valid image. Only PDF allowed",
+    "invalide_file": "Invalid input. Upload Valid File",
+    "image_file_size_1024": "Image size less then {size} MB",
+    "image_dem_500_500": "Image dimension less than 500*500 pixels",
+    "html_file_size_1024": "File size less then {size} MB",
+    "pdf_file_size_1024": "File size less then {size} MB"
+  },
+  "uploadContent": {
+    "upload_html": "Upload HTML File",
+    "upload_image": "Upload Image File",
+    "upload_pdf": "Upload PDF File"
+  },
+  "status": {
+    "CANCELLED": "CANCELLED",
+    "INACTIVE": "INACTIVE",
+    "ACTIVE": "ACTIVE",
+    "FREEZE": "FREEZE",
+    "COMPLETED": "COMPLETED",
+    "DELIVERY": "DELIVERY",
+    "SELF_PICKUP": "SELF PICKUP",
+    "ORDER_PLACED": "ORDER PLACED",
+    "ACKNOWLEDGED": "ACKNOWLEDGED",
+    "ASSIGNED_TO_CHEF": "ASSIGNED TO CHEF",
+    "PROCESSING": "PROCESSING",
+    "READY_FOR_PICKUP": "READY FOR PICKUP",
+    "ASSIGNED_TO_DELIVERY_BOY": "ASSIGNED TO DELIVERY BOY",
+    "PICKED": "PICKED",
+    "DELIVERED": "DELIVERED",
+    "RETURNED": "RETURNED",
+    "PENDING": "PENDING",
+    "ERROR": "ERROR",
+    "FAILED_PAYMENT": "FAILED PAYMENT"
+  },
+  "multiselect": {
+    "selectOption": "Select Option",
+    "selectLabel": "Press enter to select",
+    "selectedLabel": "Selected",
+    "deselectLabel": "Press enter to remove"
+  },
+  "loading": "Loading",
+  "success": "Success",
+  "failure": "Failed",
+  "areYouSure": "Are you sure?",
+  "ok": "OK",
+  "cancel": "Cancel",
+  "changesDone": "Changes saved successfully",
+  "changesReverted": "Changes has been reverted",
+  "submit": "Submit",
+  "imageNotLoaded": "image-not-loaded",
+  "typeToSearch": "Type to Search",
+  "clear": "Clear",
+  "invalidInput": "Please provide a valid input value",
+  "validInput": "Looks Good",
+  "perPage": "Per Page",
+  "create": "Create",
+  "update": "Update",
+  "list": "List",
+  "download": "Download",
+  "upload": "Upload",
+  "all": "All",
+  "remove": "Remove",
+  "yes": "Yes",
+  "no": "No"
+}
